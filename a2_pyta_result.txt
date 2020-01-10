@@ -1,0 +1,28 @@
+bridge_functions.py
+=== Code errors/forbidden usage (fix: high priority) ===
+None!
+
+=== Style/convention errors (fix: before submission) ===
+C0301 (line-too-long)  Number of occurrences: 3.
+  [Line 361] Line too long (104/90)
+  359      assigned_inspectors = []
+  360      high_priority_bridges = get_bridges_with_bci_below(bridge_data,
+  361                                                         valid_bridge_ids(bridge_data), HIGH_PRIORITY_BCI)
+  362      medium_priority_bridges = get_bridges_with_bci_below(bridge_data,
+  363                                                           valid_bridge_ids(bridge_data), MEDIUM_PRIORITY_BCI)
+
+  [Line 363] Line too long (108/90)
+  361                                                         valid_bridge_ids(bridge_data), HIGH_PRIORITY_BCI)
+  362      medium_priority_bridges = get_bridges_with_bci_below(bridge_data,
+  363                                                           valid_bridge_ids(bridge_data), MEDIUM_PRIORITY_BCI)
+  364      low_priority_bridges = get_bridges_with_bci_below(bridge_data,
+  365                                                        valid_bridge_ids(bridge_data), LOW_PRIORITY_BCI)
+
+  [Line 365] Line too long (102/90)
+  363                                                           valid_bridge_ids(bridge_data), MEDIUM_PRIORITY_BCI)
+  364      low_priority_bridges = get_bridges_with_bci_below(bridge_data,
+  365                                                        valid_bridge_ids(bridge_data), LOW_PRIORITY_BCI)
+  366      high_distance = []
+  367      medium_distance = []
+
+
